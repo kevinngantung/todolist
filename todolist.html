@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>my to do list</title>
+</head>
+
+<body>
+    <div class="todo-wrapper">
+        <h2>My To Do List</h2>
+        <p>Klick 2 kali untuk membuat list selesai</p>
+
+    <form name="todo-adder">
+        <input type="text" id="tod-entry-box" />
+    </form>
+        <button id="add-buton" class="pretty-button">add</button>
+    <br />
+    <ol id="todo-list">
+    </ol>
+    <div id="control-wrapper">
+        <button id="clear-completed-button" onclick="clearCompletedToDoItems()" class="pretty-button">Clear Completed </button>
+        <button id="empty-button" onclick="emptyList()" class="pretty-button">Empty List</button>
+        <button id="save-button" onclick="saveList()" class="pretty-button">Save LIst</button>
+    </div>
+</div>
+    
+</body>
+</html>
